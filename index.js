@@ -6,7 +6,7 @@ require("./config/db").connectToDb();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://url-shorten-frontend-pi.vercel.app",
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: [
